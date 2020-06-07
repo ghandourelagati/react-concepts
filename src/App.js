@@ -7,6 +7,9 @@ import Fetch from './main/Fetch';
 import HandlingEvents from './main/HandlingEvents';
 import ToggleComponent from './main/ToggleComponent';
 import ConditionalRendering from './main/ConditionalRendering';
+import PreventingComponentFromRendering from './main/PreventingComponentFromRendering';
+import ListsAndKeys from './main/ListsAndKeys';
+import ListsAndKeysUl from './main/ListsAndKeysUl';
 
 function App() {
   return (
@@ -19,6 +22,9 @@ function App() {
       <HandlingEvents />
       <ToggleComponent />
       <ConditionalRendering />
+      <PreventingComponentFromRendering />
+      <ListsAndKeys />
+      <ListsAndKeysUl />
     </div>
   );
 }
