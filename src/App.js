@@ -14,6 +14,8 @@ import Forms from './main/Forms';
 import FormsTextArea from './main/FormsTextArea';
 import SelectTag from './main/SelectTag';
 import LiftingStateUp from './main/LiftingStateUp';
+import TempCalculator from './main/TempCalculator';
+import Composition from './main/Composition';
 
 function App() {
   return (
@@ -33,6 +35,8 @@ function App() {
       <FormsTextArea />
       <SelectTag />
       <LiftingStateUp />
+      <TempCalculator />
+      <Composition />
     </div>
   );
 }
