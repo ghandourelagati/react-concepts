@@ -10,6 +10,10 @@ import ConditionalRendering from './main/ConditionalRendering';
 import PreventingComponentFromRendering from './main/PreventingComponentFromRendering';
 import ListsAndKeys from './main/ListsAndKeys';
 import ListsAndKeysUl from './main/ListsAndKeysUl';
+import Forms from './main/Forms';
+import FormsTextArea from './main/FormsTextArea';
+import SelectTag from './main/SelectTag';
+import LiftingStateUp from './main/LiftingStateUp';
 
 function App() {
   return (
@@ -25,6 +29,10 @@ function App() {
       <PreventingComponentFromRendering />
       <ListsAndKeys />
       <ListsAndKeysUl />
+      <Forms />
+      <FormsTextArea />
+      <SelectTag />
+      <LiftingStateUp />
     </div>
   );
 }
